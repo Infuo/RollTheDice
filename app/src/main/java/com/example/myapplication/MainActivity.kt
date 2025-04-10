@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         var newIntent : Intent = Intent (this, SecondActivity::class.java)
         var myRandom= (1..6).random()
         newIntent.putExtra("Message", "NUMERO ESTRATTO: $myRandom")
+            newIntent.putExtra("Random", myRandom)
         startActivity(newIntent)
         })
     }
