@@ -11,31 +11,31 @@
         android:id="@+id/activityMain_iv_dice"
         android:layout_width="237dp"
         android:layout_height="260dp"
-        app:layout_constraintBottom_toTopOf="@+id/activityMain_tv_title"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice_face_1"
-        tools:srcCompat="@drawable/dice_face_1" />
+        app:srcCompat="@drawable/dices"
+        tools:srcCompat="@drawable/dices" />
 
     <TextView
         android:id="@+id/activityMain_tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/indovina_il_numero"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
+        android:text="@string/roll_the_dice"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/activityMain_iv_dice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityMain_iv_dice" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonRoll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
         android:text="@string/lancia_il_dado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityMain_tv_title" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
