@@ -1,4 +1,4 @@
-# 🎲 Roll the Dice – App Android per il lancio virtuale di un dado
+# 🎲 Roll the Dice
 
 **Autore:** David Eboigbe  
 
