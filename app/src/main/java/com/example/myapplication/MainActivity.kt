@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         toast.show()
         var newIntent : Intent = Intent (this, SecondActivity::class.java)
         var myRandom= (1..6).random()
-        newIntent.putExtra("Message", "NUMERO ESTRATTO: $myRandom")
-            newIntent.putExtra("Random", myRandom)
+        newIntent.putExtra("MESSAGE", "NUMERO ESTRATTO: $myRandom")
+            newIntent.putExtra("RANDOM", myRandom)
         startActivity(newIntent)
         })
     }

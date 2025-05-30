@@ -9,19 +9,20 @@
 
     <ImageView
         android:id="@+id/activityMain_iv_dice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="237dp"
+        android:layout_height="260dp"
         app:layout_constraintBottom_toTopOf="@+id/activityMain_tv_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/dice_face_1"
+        tools:srcCompat="@drawable/dice_face_1" />
 
     <TextView
         android:id="@+id/activityMain_tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Indovina il numero"
+        android:text="@string/indovina_il_numero"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +33,7 @@
         android:id="@+id/buttonRoll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lancia Il dado"
+        android:text="@string/lancia_il_dado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="indovina_il_numero">Indovina il numero</string>
+    <string name="lancia_il_dado">Lancia Il dado</string>
+    <string name="textview">TextView</string>
+    <string name="mostra_risultato">Mostra Risultato</string>
 </resources>
